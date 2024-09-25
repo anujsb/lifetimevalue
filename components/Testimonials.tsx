@@ -27,7 +27,6 @@ const testimonials1 = [
     role: "CTO at FutureTech",
     href: "https://x.com/",
   },
-
 ];
 const testimonials2 = [
   {
@@ -54,9 +53,7 @@ const testimonials2 = [
     role: "CTO at FutureTech",
     href: "https://x.com/",
   },
-
 ];
-
 
 const Testimonials: React.FC = () => {
   return (
@@ -76,12 +73,11 @@ const Testimonials: React.FC = () => {
           <div>Our Testimonials</div>
         </div>
         <h1 className="my-6 text-2xl lg:text-4xl">
-          What our customers are saying
+          We're rated 4.8/5 on Glassdoor by our employees
         </h1>
-        <p className="text-dark-grey">
-          Read testimonials from our satisfied customers and learn how SAP has
-          transformed their project management experience.
-        </p>
+        {/* <p className="text-dark-grey text-2xl">
+          We're rated 4.8/5 on Glassdoor by our employees
+        </p> */}
         {/* <div> */}
         <div className="mt-10">
           <div className="relative m-auto w-[1000px] overflow-hidden bg-white before:absolute before:left-0 before:top-0 before:z-[2] before:h-full before:w-[100px] before:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] before:content-[''] after:absolute after:right-0 after:top-0 after:z-[2] after:h-full after:w-[100px] after:-scale-x-100 after:bg-[linear-gradient(to_right,white_0%,rgba(255,255,255,0)_100%)] after:content-['']">

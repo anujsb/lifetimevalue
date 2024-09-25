@@ -7,7 +7,7 @@ import Image from "next/image";
 
 // import Video from "./Video";
 
-export const BackgroundCellAnimation: React.FC = () => {
+export const Hero: React.FC = () => {
   return (
     <div className="relative h-screen bg-slate-950 w-full flex justify-center items-center overflow-hidden ">
       <BackgroundCellCore />
@@ -104,7 +104,7 @@ const BackgroundCellCore: React.FC = () => {
             WebkitMaskRepeat: "no-repeat",
           }}
         >
-          <Pattern cellClassName="border-blue-600 relative z-[100]" />
+          <Pattern cellClassName="border-neutral-400 relative z-[100]" />
         </div>
         <Pattern className="opacity-[0.5]" cellClassName="border-neutral-700" />
       </div>
@@ -160,7 +160,7 @@ const Pattern: React.FC<{ className?: string; cellClassName?: string }> = ({
                   whileHover={{ opacity: [0, 1, 0.5] }}
                   transition={{ duration: 0.5, ease: "backOut" }}
                   animate={controls}
-                  className="bg-[rgba(14,165,233,0.3)] h-9 w-9"
+                  className="bg-[#ffffff] h-9 w-9"
                 />
               </div>
             );

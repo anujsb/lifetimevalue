@@ -59,7 +59,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
           animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
           transition={{ duration: 0.2 }}
           className={cn(
-            "flex justify-between sm:mx-5 md:mx-10 lg:mx-10 w-max-[1120px] fixed top-10 border border-transparent rounded-2xl bg-sec-col shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-5 py-2 items-center backdrop-blur-lg",
+            "flex justify-between sm:mx-5 md:mx-10 lg:mx-10 w-max-[1120px] fixed top-10 border border-transparent rounded-2xl bg-sec-col shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] px-5 py-2 items-center backdrop-blur-lg backdrop-brightness-50",
             className
           )}
         >
@@ -72,13 +72,13 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
               className=""
             />
           </div>
-          <div className="hidden sm:flex space-x-4 text-[#404040] hover:text-black mx-20">
+          <div className="hidden sm:flex space-x-4 text-white mx-20">
             {navItems.map((navItem, idx) => (
               <Link
                 key={`link=${idx}`}
                 href={navItem.link}
                 className={cn(
-                  "relative items-center flex space-x-4 text-[#404040] hover:text-black"
+                  "relative items-center flex space-x-4 text-white"
                 )}
               >
                 <span className="block sm:hidden">{navItem.icon}</span>
