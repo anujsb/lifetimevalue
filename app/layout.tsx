@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "aviary landing page",
+  title: "Lift time value landing page",
   description: "landing page",
 };
 
