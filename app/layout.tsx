@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Lift time value landing page",
+  title: "Life time value landing page",
   description: "landing page",
 };
 
