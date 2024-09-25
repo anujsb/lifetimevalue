@@ -65,7 +65,7 @@ export const FloatingNav: React.FC<FloatingNavProps> = ({
         >
           <div className="mr-3">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               width={30}
               height={30}
               alt="EACC.dev logo"
